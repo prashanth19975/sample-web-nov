@@ -6,7 +6,7 @@ pipeline {
              git 'https://github.com/prashanth19975/sample-web-nov.git'
            }
            }
-        stage('mvn version') }
+       stage('mvn version') {
            steps {
                sh "mvn --version"
            }
