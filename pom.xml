@@ -66,8 +66,8 @@
   </build>
   <distributionManagement>
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <url>http://3.110.33.93:8081/repository/mysnapshots/</url>
+      <id>deployment</id>
+      <url>http://3.110.33.93:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
